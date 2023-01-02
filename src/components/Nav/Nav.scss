@@ -1,0 +1,27 @@
+.Nav {
+  width: 100%;
+}
+
+.ant-menu {
+  justify-content: flex-end;
+}
+
+.ant-menu-item {
+  height: 55px;
+  display: flex !important;
+  align-items: center;
+}
+
+.ant-menu-item:first-child {
+  flex: 1 0 30%;
+}
+
+.ant-menu-item-disabled {
+  cursor: auto !important;
+}
+
+.logo {
+  height: 50px;
+  display: block;
+  margin: 5px 0;
+}
